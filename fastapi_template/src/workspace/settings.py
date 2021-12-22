@@ -3,6 +3,8 @@ import urllib.parse
 
 
 class Settings(BaseSettings):
+    DEBUG = "DEBUG"
+
     server_host: str = '0.0.0.0'
     server_port: int = 8000
     database_url: str = ""
